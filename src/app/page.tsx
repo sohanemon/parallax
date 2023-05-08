@@ -15,7 +15,9 @@ export default function Home() {
   return (
     <main className='relative'>
       <div
-        style={{ backgroundImage: `url(${sky.src})` }}
+        style={{
+          backgroundImage: `url(${sky.src})`,
+        }}
         className='w-full h-screen bg-bottom bg-cover '
       >
         <motion.div
