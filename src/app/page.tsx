@@ -17,7 +17,6 @@ export default function Home() {
     animate('#image', { opacity: 0.1 });
   }
 
-  // onClick={(e) => handleAnimation())}
   return (
     <main className='relative'>
       <div
